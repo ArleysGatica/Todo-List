@@ -1,4 +1,4 @@
-import { createSlece } from '@reduxjs/toolkit';
+import { createSlece } from "@reduxjs/toolkit";
 
 const initialState = [];
 
