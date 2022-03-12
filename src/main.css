@@ -43,7 +43,6 @@
   width: 3.2rem;
   height: 3.2rem;
   cursor: pointer;
-  box-shadow: 2px 4px 10px #271c6c;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,8 +77,6 @@
 .displaytodos .buttons button:not(:last-child) {
   margin-right: 1rem;
 }
- 
---todositem
 
 .displaytodos ul {
   list-style: none;
