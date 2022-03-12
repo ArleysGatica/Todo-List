@@ -24,16 +24,16 @@ const Todos = (props) => {
   };
 
   const add = () => {
-    if (todo === "") {
-      alert("Input is Empty");
-    } else {
+    (todo === "") ?
+      alert("Input is Empty")
+      :
       props.addTodo({
         id: Math.floor(Math.random() * 1000),
         item: todo,
         completed: false,
       });
-      setTodo("");
-    }
+    setTodo("");
+
   };
   //console.log("props from store", props);
   return (
